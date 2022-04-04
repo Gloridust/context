@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font: 12px/18px 'Open Sans',"Lucida Grande","Lucida Sans Unicode",Arial,Helvetica,Verdana,sans-serif;
+    background-image:url("/images/bg.jpg");
+    background-repeat:repeat-x;
 }
 strong {
     font-weight: 700;
@@ -44,8 +46,16 @@ pre {
     float: right;
 }
 .page_wrap {
-    background-color: #ffffff;
+       /*背景透明*/
+  background-color: rgba(255, 255, 255,0.76);
     color: #000000;
+    background-size: auto, auto, 100% auto;
+    background-repeat:no-repeat;
+    background-position: center, center, top center;
+    background-attachment: scroll, scroll, scroll;
+    z-index: -1;
+    background-attachment:fixed
+    
 }
 .page_wrap a {
     color: #168acd;
@@ -92,6 +102,7 @@ pre {
     padding-top: 64px;
     width: 480px;
     margin: 0 auto;
+    
 }
 .page_about {
     padding: 24px 24px;
