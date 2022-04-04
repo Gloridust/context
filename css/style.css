@@ -46,13 +46,13 @@ pre {
     float: right;
 }
 .page_wrap {
-       /*背景透明*/
-  background-color: rgba(255, 255, 255,0.76);
+    style="/*背景透明*/
+    background-color: rgba(255, 255, 255,0.76);
     color: #000000;
     background-size: auto, auto, 100% auto;
     background-repeat:repeat;
     z-index: -1;
-    background-attachment:fixed
+    background-attachment:fixed"
     
 }
 .page_wrap a {
