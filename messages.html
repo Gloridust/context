@@ -13,7 +13,13 @@
     <link rel="shortcut icon" href="/images/bookreader.ico">
 </head>
 
-<body onload="CheckLocation();">
+<body onload="CheckLocation();" style="/*背景透明*/
+background-color: rgba(255, 255, 255,0.66);
+color: #000000;
+background-size: auto, auto, 100% auto;
+background-repeat:repeat;
+z-index: -1;
+background-attachment:fixed">
 
     <div class="page_wrap">
 
@@ -29,13 +35,14 @@
 
         </div>
 
-        <div class="page_body chat_page"  style="/*背景透明*/
-        background-color: rgba(255, 255, 255,0.76);
-        color: #000000;
-        background-size: auto, auto, 100% auto;
-        background-repeat:repeat;
-        z-index: -1;
-        background-attachment:fixed">
+        <div class="page_body chat_page"
+        style="/*背景透明*/
+background-color: rgba(255, 255, 255,0.66);
+color: #000000;
+background-size: auto, auto, 100% auto;
+background-repeat:repeat;
+z-index: -1;
+background-attachment:fixed">
         
                 <div class="message service" id="message-1">
                     <div class="body details">
